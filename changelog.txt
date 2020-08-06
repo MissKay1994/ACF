@@ -141,3 +141,6 @@ r600
 
 *r659
 - updated rocket effects courtesy of ghosteh
+
+*r664
+-Fuck you red, I am undoing the damage you did to weapons ~Kay1994

@@ -19,7 +19,7 @@ ACF_defineGun("14.5mmRAC", { --id
 	caliber = 1.45,
 	weight = 240,
 	year = 1962,
-	magsize = 60,
+	magsize = 500,
 	magreload = 6,
 	rofmod = 5.4,
 	round = {
@@ -36,7 +36,7 @@ ACF_defineGun("20mmRAC", {
 	caliber = 2.0,
 	weight = 760,
 	year = 1965,
-	magsize = 40,
+	magsize = 400,
 	magreload = 7,
 	rofmod = 2.1,
 	round = {
@@ -53,7 +53,7 @@ ACF_defineGun("30mmRAC", {
 	caliber = 3.0,
 	weight = 1500,
 	year = 1975,
-	magsize = 40,
+	magsize = 300,
 	magreload = 8,
 	rofmod = 1,
 	round = {
@@ -71,7 +71,7 @@ ACF_defineGun("20mmHRAC", {
 	caliber = 2.0,
 	weight = 1200,
 	year = 1981,
-	magsize = 60,
+	magsize = 300,
 	magreload = 4,
 	rofmod = 2.5,
 	round = {
@@ -88,7 +88,7 @@ ACF_defineGun("30mmHRAC", {
 	caliber = 3.0,
 	weight = 2850,
 	year = 1985,
-	magsize = 50,
+	magsize = 200,
 	magreload = 6,
 	rofmod = 1.2,
 	round = {
