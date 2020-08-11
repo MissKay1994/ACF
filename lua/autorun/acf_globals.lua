@@ -2,7 +2,7 @@ ACF = {}
 ACF.AmmoTypes = {}
 ACF.MenuFunc = {}
 ACF.AmmoBlacklist = {}
-ACF.Version = 664 -- REMEMBER TO CHANGE THIS FOR GODS SAKE, OMFG!!!!!!! -wrex   Update the changelog too! -Ferv
+ACF.Version = 666 -- REMEMBER TO CHANGE THIS FOR GODS SAKE, OMFG!!!!!!! -wrex   Update the changelog too! -Ferv
 ACF.CurrentVersion = 0 -- just defining a variable, do not change
 
 ACF.Year = 1945
@@ -14,7 +14,7 @@ ACF.KinFudgeFactor = 2.1	--True kinetic would be 2, over that it's speed biaised
 ACF.KEtoRHA = 0.25		--Empirical conversion from (kinetic energy in KJ)/(Aera in Cm2) to RHA penetration
 ACF.GroundtoRHA = 0.15		--How much mm of steel is a mm of ground worth (Real soil is about 0.15)
 ACF.KEtoSpall = 1
-ACF.AmmoMod = 1.05		-- Ammo modifier. 1 is 1x the amount of ammo. 0.6 default
+ACF.AmmoMod = 1.1		-- Ammo modifier. 1 is 1x the amount of ammo. 0.6 default
 ACF.CrateVolEff = 0.1576 -- magic number that adjusts the efficiency of crate model volume to ammo capacity
 ACF.ArmorMod = 1
 ACF.SlopeEffectFactor = 1.1	-- Sloped armor effectiveness: armor / cos(angle)^factor

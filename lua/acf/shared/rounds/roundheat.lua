@@ -31,7 +31,7 @@ end
 -- above a threshold vel, HEAT jet doesn't have time to form properly, converting to raw HE proportionally
 -- Vel needs to be in m/s (gmu*0.0254)
 function Round.CrushCalc( Vel, FillerMass )
-	local Crushed = math.Clamp( (Vel - ACF.HEATMinCrush) / (ACF.HEATMaxCrush - ACF.HEATMinCrush), 0,1)
+	local Crushed = math.Clamp( (Vel - ACF.HEATMinCrush) / (ACF.HEATMaxCrush - ACF.HEATMinCrush), 0,0)
 	local HE_Filler = Lerp(Crushed, FillerMass*ACF.HEATBoomConvert, FillerMass)
 	local HEAT_Filler = Lerp(Crushed, FillerMass, 0)
 	--local HE_Filler = FillerMass * ACF.HEATBoomConvert + Crushed * FillerMass * (1-ACF.HEATBoomConvert)
