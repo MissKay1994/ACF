@@ -1,7 +1,7 @@
 
 AddCSLuaFile()
 
-ACF.AmmoBlacklist.APCR = { "MO", "SL", "HW" , "C", "AC", "SA", "MG" , "SB", "RAC", "GL", "HMG", "AAM", "ARTY", "ASM", "BOMB", "GBU", "POD", "SAM", "UAR", "FFAR", "FGL" }
+ACF.AmmoBlacklist.APCR = { "MO", "SL", "HW" , "C", "AC", "SA", "MG" , "SB", "RAC", "GL", "AAM", "ARTY", "ASM", "BOMB", "GBU", "POD", "SAM", "UAR", "FFAR", "FGL" }
 
 local Round = {}
 local PenMod = 1.5
